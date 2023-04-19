@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.mainp {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    /* z-index: -1; */
+    display: flex;
+    justify-content: center;
+    right: -90px;
+    font-family: 'Forum', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.handle {
+
+    width: 90%;
+    display: flex;
+}
+
+.ldiv {
+    width: 75%;
+    background-color: #D8E3FF;
+    display: flex;
+    justify-content: center;
+}
+
+.rdiv {
+    width: 20%;
+    background-color: #ADC8FF;
+    background-image: url("../Icons//div.png");
+    /* background-size: cover;   */
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+
+.mainprofile {
+    width: 90%;
+    margin: 2rem;
+}
+
+.mainprofile1 {
+    width: 100%;
+    height: 20rem;
+    color: #000000;
+    border-radius: 1rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    background-color: #E5EEFF;
+
+
+}
+
+.mainprofile2 {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0rem;
+}
+
+.mainprofile2 .box {
+    width: 25%;
+    height: 15rem;
+    border-radius: 1rem;
+    background-color: #E5EEFF;
+}
+
+.mainprofile2 .box:hover {
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    background-color: #1C2F55;
+    color: white;
+}
+
+.mainprofile3 {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainprofile3 .box {
+    width: 100%;
+    min-height: 17rem;
+    border-radius: 1rem;
+    background-color: #E5EEFF;
+    /* box-shadow: 2px 2px 10px rgb(38, 81, 200); */
+}
+
+.rdiv .top {
+    width: 95%;
+    /* border: 1px solid rgb(122, 122, 122); */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.top img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 5px rgb(82, 138, 217); */
+    /* padding: 1rem; */
+    margin: 1rem;
+}
+
+.top h5 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(45, 45, 167);
+}
+
+.top .undertop {
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .undertop .box {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+.rdiv .datem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rdiv .datem .date {
+    width: 100%;
+    margin: 1rem;
+    max-height: 3rem;
+    /* /* border-top: 1px solid goldenrod; */
+    /* border-bottom: 1px solid goldenrod; */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.datem .date .month {
+    width: 95%;
+    /* background: linear-gradient(to bottom, #FF0000, #990000); */
+    /* background-color: #E5EEFF; */
+    color: #141a2a;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 2rem;
+    /* background-color: white; */
+    padding: 10px;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px whi;
+}
+
+.datem .date .number {
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+
+
+.mainprofile1 .c {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.mainprofile1 .c h1 {
+    font-size: 2.3rem;
+}
+
+.mainprofile1 .c span {
+    color: #FF0000;
+}
+
+.mainprofile1 .c p {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.heartandrate {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#hearticon {
+    color: #FF0000;
+    font-size: 3rem;
+}
+
+.heartandrate h5 {
+    font-size: 1.8rem;
+}
+
+.heartratecontent {
+    padding: 1rem;
+}
+
+.heartratecontent h6 {
+    font-size: 1.1rem;
+    margin: 0px 10px 10px 0px;
+    color: #2a57c8;
+}
+
+.heartratecontent p {
+    font-size: 1rem;
+}
+
+.blood {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.blood img {
+    width: 2.4rem;
+}
+
+.blood h5 {
+    font-size: 1.8rem;
+}
+
+.bloodcontent {
+    padding: 1rem;
+}
+
+.bloodcontent h6 {
+    font-size: 1.1rem;
+    margin: 0px 10px 10px 0px;
+    color: #2a57c8;
+    /* color: rgb(20, 48, 118); */
+}
+
+.bloodcontent p {
+    font-size: 1rem;
+}
+
+
+
+
+.bmitop {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+#bmiicon {
+    color: #b82f2f;
+    font-size: 4rem;
+}
+
+.bmitop h5 {
+    font-size: 1.8rem;
+}
+
+.bmicontent {
+    padding: 1rem;
+}
+
+.bmicontent h6 {
+    font-size: 1.1rem;
+    margin: 0px 5px 5px 0px;
+    color: #2a57c8;
+}
+
+.bmicontent p {
+    font-size: 1rem;
+}
+
+.undertop .box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    padding: 1rem;
+}
+
+.undertop .box img {
+    width: 2rem;
+    border-radius: 1px;
+    height: auto;
+    box-shadow: none;
+    margin: 2px;
+}
+
+.undertop .box img {
+    width: 2rem;
+    border-radius: 1px;
+    height: auto;
+    box-shadow: none;
+    margin: 2px;
+}
+
+/* .undertop .box:nth-child(2) img {
+    width: 1.2rem;
+} */
+
+#iconsleep {
+    font-size: 2rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+.undertop .box h5 {
+    color: #000;
+}
+
+.undertop .box button {
+    font-size: 1rem;
+    width: 5rem;
+    height: 2rem;
+}
+
+.mainprofile3 .box {
+    text-align: center;
+}
+
+.mainprofile3 .box h4 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.Prescrioncontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.prescriptiondata {
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    /* border-top: 2px solid rgb(58, 58, 58); */
+}
+
+.serchbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem !important;
+    width: 100%;
+}
+
+.serchbox input {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(77, 77, 77);
+}
+
+#serchdate {
+    position: absolute;
+    right: 2px;
+    color: rgb(41, 75, 176);
+    font-size: 2rem;
+    padding: 0.5rem;
+    /* background-color: #07105c93; */
+    border-radius: 1rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#serchdate:hover {
+    color: black;
+    font-size: 1.8rem;
+}
+
+#sugar_icon {
+    font-size: 4rem;
+    color: red;
+}
+
+.doctorappoitment .box li {
+    list-style: none;
+
+}
+
+.doctorappoitment {
+    width: 100%;
+    max-height: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem 0px;
+    overflow-y: scroll;
+
+}
+
+.doctorappoitment .box {
+    width: 100%;
+    border-radius: 2px;
+    min-height: 3rem;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 0.8rem;
+    font-size: 1rem;
+    color: #010844;
+    font-weight: 500;
+    background-color: #E5EEFF;
+    overflow-y: auto;
+}
+
+#logoutbutton {
+    position: absolute;
+    width: 7rem;
+    top: 3rem;
+    right: 41rem;
+}
+
+#logoutbutton button {
+   width: 100%;
+   background: transparent;
+   color: black;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px black;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+#logoutbutton button:hover{
+    background-color: #dfe7f9;
+    box-shadow: 2px 2px 10px black;
+    color: #010844;
+}

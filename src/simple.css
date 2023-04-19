@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+:root{
+    --maincolor : var(rgb(10, 10, 76));
+    --maincolorm :  var(rgb(48, 48, 116));
+    --maincolorl : var(rgb(113, 113, 188));
+    --fontl : 40px;
+    --fontm : 25px;
+    --fonts : 15px;
+}
+
+/* form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+    /* background-color: rgb(223, 221, 219); 
+    background: linear-gradient(rgb(228, 83, 20),rgb(220, 163, 163),rgb(199, 21, 21));
+    padding: 2rem;
+    width: 40%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.658);
+}
+
+form h2{
+    font-size: 2.5rem;
+    color: rgb(11, 11, 85);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 70%;
+}
+.info{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info input{
+    width: 45%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #050f53;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(25, 7, 95);
+}
+
+.medicine-info{
+    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: left;
+
+}
+/* .medicine-info input,textarea,option,select{
+    font-size: 1.1rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+} 
+
+
+
+.search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.search input{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(13, 13, 109);
+    outline: none;
+} 
+
+.userserch{
+    margin: 0px 30px;
+}
+
+.datacontainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+    flex-wrap: wrap;
+    /* border: 2px solid black; 
+}
+
+.data{
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding: 1rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.addbtn{
+    width: 3rem;
+    border-radius: 50%;
+    font-size: 2.1rem;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 800;
+}
+
+.btnandinput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnandinput input{
+width: 90%;
+}
+
+.dynamicinput{
+    height: 2.5rem;
+} */

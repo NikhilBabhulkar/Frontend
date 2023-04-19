@@ -1,0 +1,96 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.profile__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.profile__row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.profile__label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  width: 200px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.profile__value {
+  font-size: 18px;
+  color: #555;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.profile__email {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.profile__prescription {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.profile__prescription-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile__prescription-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile__prescription-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.profile__prescription-details div {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.profile__prescription-details span:first-child {
+  font-weight: bold;
+  color: #333;
+  width: 150px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.profile__prescription-details span:last-child {
+  color: #555;
+  font-size: 18px;
+}

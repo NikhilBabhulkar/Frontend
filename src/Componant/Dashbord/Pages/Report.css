@@ -1,0 +1,57 @@
+.sidebars{
+    width: 90%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2rem;
+}
+
+.inputfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+#search{
+    background-color: rgb(15, 85, 171);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#search:hover{
+    color: black;
+}
+
+.inputfield input{
+    padding: 1rem;
+    border-radius: 5px;
+    width: 50rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.prescriptionlist{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+}
+/* .prescriptionlist ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+} */
+
+.prescriptionlist li{
+    padding: 15px;
+    list-style: none;
+    font-size: 1.1rem;
+    background-color: rgb(232, 235, 255);
+    margin: 10px;
+    border-radius: 10px;
+}

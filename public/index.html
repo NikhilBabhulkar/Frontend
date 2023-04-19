@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- <Script defer src="https://pyscript.net/latest/pyscript.js" strategy='beforeInteractive'/> -->
+  <script src="https://kit.fontawesome.com/9ed1fe8206.js" crossorigin="anonymous"></script>
+  <title>Registration</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    import reactDom from 'https://cdn.skypack.dev/react-dom';
+  </script>
+  <script>
+    var slideIndex = 0;
+
+    showSlide();
+
+    // var timer = setInterval(showSlide, 2000);
+
+    var slideContainer = document.getElementById('slideshow-container');
+    var slideControl = document.getElementById('slide-control');
+
+    slideContainer.onmouseover = function () {
+      clearInterval(timer);
+    }
+
+    slideControl.onmouseover = function () {
+      clearInterval(timer);
+    }
+
+    slideContainer.onmouseleave = function () {
+      // timer = setInterval(showSlide, 2000);
+    }
+
+    slideControl.onmouseleave = function () {
+      // timer = setInterval(showSlide, 2000);
+    }
+
+    function showSlide() {
+      var i;
+      var slides = document.getElementsByClassName('slide-item');
+      var dots = document.getElementsByClassName('dot');
+      for (var i = 0; i < slides.length; i++) { slides[i].style.display = 'none'; } for (var i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      } slideIndex++; if (slideIndex > slides.length)
+        slideIndex = 1;
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+    function chooseSlide(n) {
+      slideIndex = n;
+      showSlide();
+      clearInterval(timer);
+    }
+
+    function showMenu() {
+      var topNav = document.getElementById('topnav');
+      if (topNav.className === "navbar") {
+        topNav.className += " show";
+      } else {
+        topNav.className = "navbar";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
